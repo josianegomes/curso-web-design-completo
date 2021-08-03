@@ -283,7 +283,7 @@ img {
   overflow: auto; /*clear fix limpa a flutuacao para nao ficar em cima de outro elemento*/
 }
 
-.qualidade li {
+.qualidade_lista li {
   text-align: center;
   padding: 0 40px;
 }
