@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="web/css/style.css">
   <link rel="stylesheet" href="web/css/portfolio.css">
   <link rel="stylesheet" href="web/css/responsivo.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -36,20 +37,33 @@
     </div>
   </section>
 
-  <section class="container">
+  <section class="container" data-slide="quote">
     <blockquote class="quote_cliente">
-      <p>"No mundo atual a continua expansão de nossa
-        atividade cumpre um papel essencial da formulação da
-        gestão inovadora da qual fazemos parte"</p>
+      <p>"Pedalar sempre foi minha paixao,
+        o que o pessoal da bikcraft fez foi intensificar
+        ainda mais o meu amor por essa atividade"</p>
       <cite>Barbara Moss</cite>
+    </blockquote>
+    <blockquote class="quote_cliente">
+      <p>"Nada melhor que dar um role co0m a minha Bikcraft"</p>
+      <cite>Jhony Rato</cite>
+    </blockquote>
+    <blockquote class="quote_cliente">
+      <p>"Aqueles que ainda nao possuem uma bikcraft nao sabem oque estao perdendo"</p>
+      <cite>Bernardo</cite>
     </blockquote>
   </section>
 
   <section class="portifolio">
-    <div class="container">
+    <div class="container" data-slide="portfolio">
       <ul class="portfolio_lista">
         <li class="grid-8"><img src="web/img/portfolio/retro.jpg" alt="Bicicleta Retrô"></li>
         <li class="grid-8"><img src="web/img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li>
+        <li class="grid-16"><img src="web/img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li>
+      </ul>
+      <ul class="portfolio_lista">
+        <li class="grid-8"><img src="web/img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li>
+        <li class="grid-8"><img src="web/img/portfolio/retro.jpg" alt="Bicicleta Retrô"></li>
         <li class="grid-16"><img src="web/img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li>
       </ul>
     </div>
@@ -62,6 +76,7 @@
         <p>WILLIAM MORRIS</p>
       </cite>
     </blockquote>
+
   </section>
 
   <footer>
@@ -105,6 +120,9 @@
       </div>
     </div>
   </footer>
+  <script src="./web/js/simple-slide.js"></script>
+  <script src="./web/js/script.js"></script>
 </body>
+
 
 </html>

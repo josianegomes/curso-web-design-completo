@@ -12,6 +12,10 @@ img {
   max-width: 100%; /*img se adapta dde acordo com o container dela (img fluida) */
 }
 
+button {
+  cursor: pointer;
+}
+
 .btn {
   border: 3px solid #fec63e;
   padding: 10px 30px;
@@ -376,4 +380,46 @@ img {
   width: 100%;
   background: #fec63e;
   padding: 20px 0;
+}
+
+/*JavaScript*/
+/*[seleciona todo item que tiver esse atributo ex: data-slide]*/
+.js [data-slide] {
+  position: relative;
+}
+
+/*sinal de * e um seletor geral*/
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0; /*esse item eu nao vou conseguir ver ele */
+}
+
+/* item que esta ativo*/
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1; /*opacidade dele vai ser 1*/
+  transition: opacity 500ms; /*quero que a opacity tenha uma trsnsicao de 500ms*/
+}
+
+.js [data-slide-nav] {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  text-indent: -99px;
+  overflow: hidden;
+  background: #1d1d1d;
+}
+.js [data-slide-nav] button.active {
+  background: #fec63e;
 }
