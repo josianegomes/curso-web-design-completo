@@ -423,3 +423,19 @@ button {
 .js [data-slide-nav] button.active {
   background: #fec63e;
 }
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+/*vindo de cima*/
+.js .fadeInDown {
+  /*Coloca essa mesma classe no elemento html que quero usar poe exemplo <h1>*/
+  transform: translate3d(0, -20px, 0); /*faz animacao*/
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
+}
