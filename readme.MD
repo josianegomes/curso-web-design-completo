@@ -20,7 +20,7 @@ O site conta com um formulário para envio de E-mails com o PHP.
 
 Obs: Ainda estou finalizando o site pretendo publicá-lo em um domínio público na web fazendo com que o envio de e-mail funcione.
 
-###Imagem Wireframe
+### Imagem Wireframe
 
 Imagem Home:
 
@@ -29,7 +29,7 @@ Imagem Home:
 Para ver todas as telas clique no link da pasta abaixo.
 `<link>` : https://github.com/josianegomes/curso-web-design-completo/tree/master/web/img/Wireframe-jpg
 
-###Imagem Design
+### Imagem Design
 
 Imagem Home:
 
