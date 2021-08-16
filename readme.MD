@@ -14,7 +14,7 @@
 
 # Sobre o projeto
 
-O projeto é um site que fala sobre uma empresa fabricante de bicicletas e seus produtos, foi desenvolvido primeiramente no Adobe XD nele criei o Wireframe e o design do projeto, foi utilizado também o grid para posicionamento dos conteúdos para chegar ao mais próximo possível das medidas do site final.
+O projeto é um site que está em desenvolvimento, é sobre uma empresa fabricante de bicicletas e seus produtos, foi desenvolvido primeiramente no Adobe XD nele criei o Wireframe e o design do projeto, foi utilizado também o grid para posicionamento dos conteúdos para chegar ao mais próximo possível das medidas do site final.
 O projeto foi desenvolvido com as tecnologias HTML, CSS, JavaScript e PHP, utilizei o grid para posicionar os elementos com mais exatidão, o site também é responsivo e para isso utilizei o media query.
 O site conta com um formulário para envio de E-mails com o PHP.
 
